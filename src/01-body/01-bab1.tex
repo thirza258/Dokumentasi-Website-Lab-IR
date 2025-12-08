@@ -1,0 +1,125 @@
+%-----------------------------------------------------------------------------%
+\chapter{\babSatu}
+%-----------------------------------------------------------------------------%
+Bab ini akan menjelaskan dasar-dasar yang melatarbelakangi pengembangan proyek ini, dimulai dari latar belakang permasalahan yang menjadi alasan utama dilakukannya penelitian dan pengembangan sistem. Selanjutnya, bab ini juga memuat identifikasi masalah yang terjadi pada kondisi saat ini, batasan permasalahan untuk memperjelas ruang lingkup penelitian, serta rumusan masalah sebagai fokus utama yang ingin diselesaikan.
+
+
+%-----------------------------------------------------------------------------%
+\section{Latar Belakang Proyek}
+%-----------------------------------------------------------------------------%
+Perkembangan teknologi informasi, khususnya teknologi web, telah mengalami evolusi yang sangat pesat dalam satu dekade terakhir. Website telah bertransformasi dari sekadar media penyampai informasi satu arah menjadi platform interaktif yang dinamis dan terintegrasi. Meskipun demikian, keberlanjutan dan pemeliharaan sistem yang telah dibangun di masa lalu sering kali menjadi tantangan tersendiri bagi banyak organisasi
+
+Saat ini, Laboratorium IR-NLP memiliki sebuah website profil yang berfungsi sebagai sarana penyampaian informasi kepada publik. Website ini dibangun pada tahun 2019 menggunakan teknologi PHP Native (tanpa kerangka kerja/framework) dengan versi PHP yang kini dikategorikan sebagai deprecated (usang). Secara arsitektur, website ini bersifat statis, di mana konten informasi menyatu secara langsung (hardcoded) dengan kode pemrograman.
+
+Kondisi ini menyebabkan proses pemutakhiran informasi menjadi terhambat. Website tersebut belum pernah mengalami pembaruan besar (major update) baik dari sisi antarmuka (user interface) maupun sisi back-end sejak awal peluncurannya. Ketiadaan sistem manajemen konten (Content Management System) memaksa administrator untuk memodifikasi kode sumber (source code) secara langsung setiap kali terdapat perubahan data, sekecil apa pun. Hal ini tidak hanya tidak efisien, tetapi juga meningkatkan risiko kesalahan kode (human error) yang dapat merusak tampilan atau fungsionalitas website.
+
+Sebagai solusi atas permasalahan tersebut, penulis mengusulkan pembangunan ulang (redevelopment) sistem website menggunakan kerangka kerja (framework) Django berbasis bahasa pemrograman Python. Pemilihan Django didasarkan pada keunggulannya dalam aspek keamanan (security), skalabilitas, serta ketersediaan fitur panel administrasi (Admin Interface) bawaan. Proyek ini bertujuan untuk menggantikan sistem statis lama menjadi sistem dinamis yang dilengkapi dengan halaman Admin untuk pengelolaan konten mandiri (Content Management System) dan fitur otomasi publikasi.
+
+%-----------------------------------------------------------------------------%
+\section{Identifikasi Masalah}
+%-----------------------------------------------------------------------------%
+Berdasarkan pengamatan terhadap sistem yang sedang berjalan (legacy system), dapat diidentifikasi beberapa pokok permasalahan sebagai berikut:
+
+\begin{enumerate}
+    \item Inefisiensi Manajemen Konten: Website saat ini bersifat statis (PHP Native), sehingga proses penambahan, penyuntingan, atau penghapusan konten harus dilakukan melalui pengubahan kode program (script), bukan melalui antarmuka grafis.
+    \item Ketiadaan Panel Admin: Tidak tersedianya halaman administrator menyebabkan staf non-teknis tidak dapat melakukan pengelolaan data atau publikasi informasi secara mandiri.
+\end{enumerate}
+
+%-----------------------------------------------------------------------------%
+\subsection{Batasan Permasalahan}
+%-----------------------------------------------------------------------------%
+Agar pengembangan sistem lebih terarah, penulis menetapkan batasan masalah atau ruang lingkup sebagai berikut:
+\begin{enumerate}
+    \item Sistem dibangun menggunakan bahasa pemrograman Python dengan framework Django.
+    \item Pengelolaan basis data (database) akan dimigrasikan dari struktur lama ke PostgreSQL (atau SQLite/MySQL sesuai kebutuhan) yang dikelola melalui ORM Django.
+    \item Fitur Halaman Admin mencakup manajemen pengguna (user management) dan manajemen konten (CRUD: Create, Read, Update, Delete).
+    \item Fitur Otomasi difokuskan pada mekanisme publikasi konten terjadwal (scheduled post) atau otomasi status konten.
+\end{enumerate}
+
+\subsection{Rumusan Masalah}
+%-----------------------------------------------------------------------------%
+Berdasarkan latar belakang dan identifikasi masalah di atas, maka rumusan masalah dalam proyek ini adalah:
+\begin{enumerate}
+\item Bagaimana merancang dan membangun sistem website baru menggunakan framework Django (Python) untuk menggantikan website statis berbasis PHP Native?
+\item Bagaimana mengimplementasikan fitur Halaman Admin yang memungkinkan pengguna non-teknis mengelola konten website dengan mudah?
+\item Bagaimana menerapkan fitur otomasi publikasi untuk meningkatkan efisiensi penyebaran informasi pada website baru?
+\end{enumerate}
+%-----------------------------------------------------------------------------%
+\section{Tujuan}
+%-----------------------------------------------------------------------------%
+Tujuan utama dari pelaksanaan proyek akhir ini adalah:
+\begin{enumerate}
+    \item Membangun Sistem Web Dinamis: Mengembangkan website baru menggunakan teknologi Python Django yang memisahkan logika program dengan konten data.
+    \item Menyediakan Panel Administrasi: Membuat antarmuka back-end (Halaman Admin) yang user-friendly agar administrator dapat mengelola konten (berita, artikel, galeri) tanpa menyentuh kode program.
+    \item Implementasi Otomasi: Mengintegrasikan fitur otomasi pada sistem, seperti penjadwalan publikasi (scheduled publishing) atau notifikasi otomatis, guna menunjang kinerja operasional.
+\end{enumerate}
+
+%-----------------------------------------------------------------------------%
+\section{Posisi Dokumentasi Website}
+
+Bab ini berfungsi sebagai panduan teknis dan operasional yang menjelaskan bagaimana website dikembangkan serta bagaimana cara menggunakannya. Dokumentasi ini mencakup penjelasan mengenai arsitektur sistem, teknologi yang digunakan, struktur modul, serta alur kerja utama yang membentuk keseluruhan website.
+
+Selain menjelaskan proses pembuatan, bab ini juga memberikan panduan penggunaan sistem bagi pengguna. Mulai dari cara mengakses website, memahami fitur–fitur yang tersedia, hingga langkah–langkah melakukan interaksi dengan sistem. Dengan adanya bagian ini, diharapkan pembaca dapat memahami posisi website dalam konteks sistem yang dibangun, baik dari sisi pengembang maupun pengguna akhir, tanpa harus melihat langsung ke dalam kode program.
+
+Bab ini sekaligus menjadi jembatan antara pembahasan perancangan sistem dan tahap pengujian, sehingga memberikan gambaran utuh mengenai bagaimana website diimplementasikan dan dioperasikan dalam lingkungan nyata.
+
+%-----------------------------------------------------------------------------%
+
+
+
+%-----------------------------------------------------------------------------%
+\section{Metodologi Penelitian}
+%-----------------------------------------------------------------------------%
+Metodologi penelitian yang digunakan dalam pengembangan dan dokumentasi website ini adalah model \textit{Waterfall}. Model Waterfall dipilih karena memberikan alur kerja yang terstruktur, sistematis, dan mudah dipahami dalam proses pengembangan sistem berbasis web. Setiap tahapan dalam metode ini dilakukan secara berurutan, di mana suatu tahap harus diselesaikan terlebih dahulu sebelum melanjutkan ke tahap berikutnya.
+
+Secara umum, tahapan dalam metode Waterfall meliputi: analisis kebutuhan, perancangan sistem, implementasi, pengujian, dan pemeliharaan. Tahapan-tahapan tersebut disesuaikan dengan sistematika penulisan laporan yang terdiri dari tujuh bab, yaitu sebagai berikut:
+
+\begin{enumerate}
+    \item \textbf{Bab 1 – Pendahuluan (Tahap Analisis Kebutuhan)}\\
+    Pada tahap ini dilakukan identifikasi masalah yang menjadi latar belakang pembuatan website, perumusan masalah, tujuan penelitian, batasan masalah, serta manfaat dari sistem yang dibangun. Bab ini berfungsi sebagai dasar pemahaman terhadap kebutuhan sistem dan alasan mengapa website ini perlu dikembangkan.
+
+    \item \textbf{Bab 2 – Perancangan Sistem (Tahap Desain)}\\
+    Pada bab ini dilakukan perancangan sistem secara menyeluruh, yang mencakup perancangan arsitektur sistem, perancangan basis data menggunakan ERD, perancangan alur proses sistem menggunakan diagram seperti \textit{use case diagram}, serta perancangan antarmuka pengguna (UI). Tahap ini merupakan penerjemahan kebutuhan sistem ke dalam bentuk desain teknis yang akan diimplementasikan pada tahap berikutnya.
+
+    \item \textbf{Bab 3 – Implementasi dan Fungsi (Tahap Implementasi)}\\
+    Tahap implementasi mencakup proses pembangunan sistem berdasarkan hasil perancangan sebelumnya. Website dikembangkan menggunakan framework Django untuk sisi backend serta HTML, CSS, dan JavaScript untuk sisi frontend. Pada bab ini dijelaskan proses implementasi setiap fitur utama sistem beserta fungsinya.
+
+    \item \textbf{Bab 4 – Pengujian dan Evaluasi (Tahap Pengujian)}\\
+    Pada bab ini dilakukan pengujian terhadap website untuk memastikan bahwa seluruh fungsi berjalan sesuai dengan kebutuhan yang telah ditentukan. Pengujian dilakukan dengan metode \textit{unit testing}, \textit{functionality testing}, dan \textit{performance testing} menggunakan berbagai alat bantu seperti Lighthouse. Hasil pengujian selanjutnya dievaluasi untuk mengetahui tingkat keberhasilan sistem.
+
+    \item \textbf{Bab 5 – Panduan Pengguna dan Penutup (Tahap Dokumentasi)}\\
+    Bab ini berisi panduan penggunaan website bagi pengguna, mulai dari cara mengakses, mengoperasikan, hingga memahami fitur-fitur yang tersedia. Selain itu, bab ini juga menjelaskan cara instalasi dan konfigurasi sistem secara umum sehingga dapat digunakan oleh pihak terkait.
+
+    \item \textbf{Bab 6 – Bab Enam (Tahap Pemeliharaan)}\\
+    Tahap ini menjelaskan rencana pemeliharaan sistem yang mencakup perbaikan bug, pembaruan fitur, serta pengembangan lanjutan yang memungkinkan sistem tetap relevan dan dapat digunakan dalam jangka panjang.
+
+    \item \textbf{Bab 7 – Kesimpulan dan Saran}\\
+    Bab ini berisi kesimpulan dari seluruh proses penelitian dan pengembangan website, serta saran untuk pengembangan sistem di masa mendatang.
+\end{enumerate}
+
+Dengan menggunakan metode Waterfall ini, proses pengembangan website dilakukan secara terstruktur dan terdokumentasi dengan baik, sehingga hasil yang diperoleh sesuai dengan tujuan dan kebutuhan yang telah ditentukan sejak awal.
+
+%-----------------------------------------------------------------------------%
+\section{Sistematika Penulisan}
+%-----------------------------------------------------------------------------% 
+Sistematika penulisan laporan ini disusun untuk memberikan gambaran singkat mengenai isi dari setiap bab yang terdapat dalam laporan dokumentasi website. Adapun sistematika penulisannya adalah sebagai berikut:
+
+\begin{enumerate}
+    \item \textbf{Bab 1 (\babSatu)}\\
+    Bab ini berisi latar belakang, identifikasi masalah, batasan permasalahan, rumusan masalah, tujuan penelitian, posisi dokumentasi website, metodologi penelitian, serta sistematika penulisan laporan.
+
+    \item \textbf{Bab 2 (\babDua)}\\
+    Bab ini membahas tentang perancangan sistem yang menjadi dasar dari pengembangan website. Pembahasannya meliputi teknologi yang digunakan, analisis sistem yang sedang berjalan, analisis kebutuhan sistem baru, perancangan basis data, serta perancangan antarmuka (user interface).
+
+    \item \textbf{Bab 3 (\babTiga)}\\
+    Bab ini menjelaskan implementasi sistem yang mencakup lingkungan implementasi, proses implementasi basis data, serta metode pengumpulan data publikasi yang digunakan.
+
+    \item \textbf{Bab 4 (\babEmpat)}\\
+    Bab ini berisi tahap pengujian sistem yang telah dikembangkan, yang mencakup tujuan pengujian, lingkup pengujian, metode pengujian, serta hasil dan evaluasi pengujian.
+
+    \item \textbf{Bab 5 (\babLima)}\\
+    Bab ini memuat panduan penggunaan website, baik untuk pengguna non-teknis (user umum) maupun pengguna teknis (admin), termasuk penjelasan fungsi dan cara penggunaan fitur-fitur yang tersedia.
+
+    \item \textbf{Bab 6 (\babEnam)}\\
+    Bab ini berisi kesimpulan yang diperoleh dari hasil perancangan, implementasi, dan pengujian sistem, serta saran untuk pengembangan dan penyempurnaan website di masa mendatang.
+\end{enumerate}

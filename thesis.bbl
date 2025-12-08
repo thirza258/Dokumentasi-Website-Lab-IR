@@ -1,0 +1,14 @@
+\begin{thebibliography}{}
+
+\bibitem[{Django Software Foundation}, 2024]{django2024}
+{Django Software Foundation} (2024).
+\newblock Django documentation.
+\newblock Accessed: 8 December 2025.
+
+\bibitem[Gr{\"o}nholm, 2024]{apscheduler}
+Gr{\"o}nholm, A. (2024).
+\newblock Advanced python scheduler (apscheduler) documentation.
+\newblock \url{https://apscheduler.readthedocs.io/en/3.x/}.
+\newblock Diakses: 8 Desember 2025.
+
+\end{thebibliography}

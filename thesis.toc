@@ -1,0 +1,110 @@
+\contentsline {chapter}{HALAMAN JUDUL}{i}{section*.2}%
+\contentsline {chapter}{LEMBAR PERSETUJUAN}{ii}{section*.4}%
+\contentsline {chapter}{LEMBAR PERNYATAAN ORISINALITAS}{iii}{section*.5}%
+\contentsline {chapter}{LEMBAR PENGESAHAN}{iv}{section*.6}%
+\contentsline {chapter}{\uppercase {Kata Pengantar}}{v}{section*.7}%
+\contentsline {chapter}{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}{v}{section*.8}%
+\contentsline {chapter}{ABSTRAK}{vii}{section*.9}%
+\contentsline {chapter}{\uppercase {Daftar Isi}}{ix}{section*.10}%
+\contentsline {chapter}{\uppercase {Daftar Gambar}}{xiii}{section*.11}%
+\contentsline {chapter}{\uppercase {Daftar Tabel}}{xv}{section*.12}%
+\contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Latar Belakang Proyek}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Identifikasi Masalah}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Batasan Permasalahan}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Rumusan Masalah}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Tujuan}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Posisi Dokumentasi Website}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{5}{section.1.6}%
+\contentsline {chapter}{\numberline {2}\uppercase {Perancangan Sistem}}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Dasar Teknologi yang Digunakan}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Framework Django}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}HTML, CSS, dan JavaScript}{8}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}APScheduler untuk Penjadwalan Tugas}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Integrasi Google Sheets}{8}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}\textit {Publication Scraping} Menggunakan OpenAlex}{9}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Analisis Sistem}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Analisis Sistem Berjalan}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Analisis Kebutuhan Sistem Baru}{9}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Perancangan Basis Data}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Entity Relationship Diagram (ERD)}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Deskripsi Model Anggota Lab}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Deskripsi Entitas (Tabel)}{12}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}FacultyMembers}{12}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}CurrentStudents}{12}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3.3}Alumni}{12}{subsubsection.2.3.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.4}Author}{13}{subsubsection.2.3.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.3.5}django\_content\_type}{13}{subsubsection.2.3.3.5}%
+\contentsline {subsection}{\numberline {2.3.4}Deskripsi Publikasi}{13}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Deskripsi Entitas (Tabel)}{13}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Deskripsi Relasi}{14}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Deskripsi Model Acara}{15}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Deskripsi Entitas (Tabel)}{15}{subsection.2.3.8}%
+\contentsline {subsubsection}{\numberline {2.3.8.1}Event}{15}{subsubsection.2.3.8.1}%
+\contentsline {subsection}{\numberline {2.3.9}Deskripsi Relasi}{16}{subsection.2.3.9}%
+\contentsline {subsubsection}{\numberline {2.3.9.1}Entitas Mandiri (Standalone Entity)}{16}{subsubsection.2.3.9.1}%
+\contentsline {section}{\numberline {2.4}Perancangan Antarmuka}{16}{section.2.4}%
+\contentsline {chapter}{\numberline {3}\uppercase {Implementasi dan Fungsi}}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lingkungan Implementasi}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Spesifikasi Perangkat Lunak}{18}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Implementasi Basis Data}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Struktur Tabel Hasil Migrasi}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Implementasi Kode Program}{20}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Implementasi Model (models.py)}{20}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Implementasi Admin}{29}{subsubsection.3.2.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Implementasi Antarmuka (User Interface}{29}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Halaman Beranda (Homepage)}{29}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Halaman People}{30}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}Halaman Research Grant}{31}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}Halaman Publikasi}{31}{subsubsection.3.2.3.4}%
+\contentsline {subsubsection}{\numberline {3.2.3.5}Halaman Tools and Resources}{32}{subsubsection.3.2.3.5}%
+\contentsline {subsubsection}{\numberline {3.2.3.6}Halaman Events}{32}{subsubsection.3.2.3.6}%
+\contentsline {subsubsection}{\numberline {3.2.3.7}Halaman Contact}{33}{subsubsection.3.2.3.7}%
+\contentsline {subsubsection}{\numberline {3.2.3.8}Halaman Admin}{33}{subsubsection.3.2.3.8}%
+\contentsline {subsection}{\numberline {3.2.4}Metode Pengumpulan Publikasi Berbasis API}{34}{subsection.3.2.4}%
+\contentsline {chapter}{\numberline {4}\uppercase {Pengujian dan Evaluasi}}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tujuan Pengujian}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Lingkup Pengujian}{37}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Pengujian Performa Halaman dengan Lighthouse Insights}{37}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Pengujian Basis Data}{37}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Pengujian View}{38}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Metode Pengujian}{38}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Pengujian Performa Halaman dengan Lighthouse Insights}{38}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Pengujian Basis Data}{39}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Pengujian View pada Django}{39}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Hasil Pengujian}{40}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Pengujian Performa Halaman dengan Lighthouse Insights}{40}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}Navigation}{40}{subsubsection.4.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}Performance}{41}{subsubsection.4.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}Accessibility}{42}{subsubsection.4.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.4.1.4}Best Practices}{43}{subsubsection.4.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.4.1.5}SEO}{44}{subsubsection.4.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.4.1.6}Timespan}{44}{subsubsection.4.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.4.1.7}Timespan Performance}{45}{subsubsection.4.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.4.1.8}Timespan Best Practices}{46}{subsubsection.4.4.1.8}%
+\contentsline {subsection}{\numberline {4.4.2}Pengujian Basis Data}{46}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Pengujian View}{49}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}\uppercase {Panduan Pengguna dan Penutup}}{52}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Pendahuluan}{52}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Panduan Pengguna}{52}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Panduan Pengguna Non-Teknis}{52}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Navigasi Website}{52}{subsubsection.5.2.1.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}Mengakses Informasi Publikasi}{53}{subsubsection.5.2.1.2}%
+\contentsline {subsubsection}{\numberline {5.2.1.3}Melihat Daftar Hibah Penelitian}{53}{subsubsection.5.2.1.3}%
+\contentsline {subsubsection}{\numberline {5.2.1.4}Melihat Daftar Anggota (People)}{53}{subsubsection.5.2.1.4}%
+\contentsline {subsubsection}{\numberline {5.2.1.5}Mengakses Halaman Event}{54}{subsubsection.5.2.1.5}%
+\contentsline {subsubsection}{\numberline {5.2.1.6}Menggunakan Resource dan Tools}{54}{subsubsection.5.2.1.6}%
+\contentsline {subsubsection}{\numberline {5.2.1.7}Menggunakan Halaman Kontak}{54}{subsubsection.5.2.1.7}%
+\contentsline {subsection}{\numberline {5.2.2}Panduan Pengguna Teknis}{54}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Kebutuhan Sistem}{54}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}Instalasi Aplikasi}{55}{subsubsection.5.2.2.2}%
+\contentsline {paragraph}{1. Instalasi Manual}{55}{section*.63}%
+\contentsline {paragraph}{2. Instalasi Menggunakan Docker}{56}{section*.64}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}Struktur Proyek}{56}{subsubsection.5.2.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.2.4}Menjalankan Server Django}{57}{subsubsection.5.2.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.2.5}Penggunaan Halaman Admin Django}{57}{subsubsection.5.2.2.5}%
+\contentsline {chapter}{\numberline {6}\uppercase {Kesimpulan dan Saran}}{65}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Kesimpulan}{65}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Saran}{65}{section.6.2}%
+\contentsline {chapter}{\uppercase {Daftar Referensi}}{67}{Item.71}%
