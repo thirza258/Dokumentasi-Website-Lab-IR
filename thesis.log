@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  8 DEC 2025 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  29 JAN 2026 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -965,7 +965,7 @@ Package epstopdf Info: Source file: <_internals/makara.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=_internals/makara-eps-converted-to.pdf _internals/makara.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<_internals/makara-eps-converted-to.pdf, id=438, 219.82124pt x 219.82124pt>
+<_internals/makara-eps-converted-to.pdf, id=446, 219.82124pt x 219.82124pt>
 File: _internals/makara-eps-converted-to.pdf Graphic file (type pdf)
 <use _internals/makara-eps-converted-to.pdf>
 Package pdftex.def Info: _internals/makara-eps-converted-to.pdf  used on input line 14.
@@ -1267,7 +1267,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [9]
-<assets/pics/bab2_model_erd.png, id=965, 1308.89pt x 1631.09375pt>
+<assets/pics/bab2_model_erd.png, id=977, 1308.89pt x 1631.09375pt>
 File: assets/pics/bab2_model_erd.png Graphic file (type png)
 <use assets/pics/bab2_model_erd.png>
 Package pdftex.def Info: assets/pics/bab2_model_erd.png  used on input line 85.
@@ -1343,7 +1343,7 @@ Underfull \hbox (badness 4229) in paragraph at lines 278--281
 \T1/ptm/m/n/12 Tabel \T1/pcr/m/n/12 Event \T1/ptm/m/n/12 tidak memi-liki hubun-gan \T1/ptm/m/it/12 for-eign key \T1/ptm/m/n/12 ke tabel lain seperti
  []
 
-<assets/pics/bab2_referensi.png, id=1003, 576.65437pt x 240.9pt>
+<assets/pics/bab2_referensi.png, id=1015, 576.65437pt x 240.9pt>
 File: assets/pics/bab2_referensi.png Graphic file (type png)
 <use assets/pics/bab2_referensi.png>
 Package pdftex.def Info: assets/pics/bab2_referensi.png  used on input line 294.
@@ -1356,7 +1356,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [16 <./assets/pics/bab2_referensi.png>]
-<assets/pics/bab2_wireframe.png, id=1009, 618.05907pt x 350.81062pt>
+<assets/pics/bab2_wireframe.png, id=1021, 618.05907pt x 350.81062pt>
 File: assets/pics/bab2_wireframe.png Graphic file (type png)
 <use assets/pics/bab2_wireframe.png>
 Package pdftex.def Info: assets/pics/bab2_wireframe.png  used on input line 304.
@@ -1473,7 +1473,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [28]
-<assets/pics/bab3_homepage.png, id=1293, 1371.1225pt x 2695.06876pt>
+<assets/pics/bab3_homepage.png, id=1305, 1371.1225pt x 2695.06876pt>
 File: assets/pics/bab3_homepage.png Graphic file (type png)
 <use assets/pics/bab3_homepage.png>
 Package pdftex.def Info: assets/pics/bab3_homepage.png  used on input line 396.
@@ -1487,7 +1487,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [29]
-<assets/pics/bab3_faculty_members.png, id=1326, 1011.78pt x 453.19313pt>
+<assets/pics/bab3_faculty_members.png, id=1338, 1011.78pt x 453.19313pt>
 File: assets/pics/bab3_faculty_members.png Graphic file (type png)
 <use assets/pics/bab3_faculty_members.png>
 Package pdftex.def Info: assets/pics/bab3_faculty_members.png  used on input line 405.
@@ -1501,17 +1501,17 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [30 <./assets/pics/bab3_homepage.png>]
-<assets/pics/bab3_research_grants.png, id=1332, 1014.79124pt x 453.19313pt>
+<assets/pics/bab3_research_grants.png, id=1344, 1014.79124pt x 453.19313pt>
 File: assets/pics/bab3_research_grants.png Graphic file (type png)
 <use assets/pics/bab3_research_grants.png>
 Package pdftex.def Info: assets/pics/bab3_research_grants.png  used on input line 414.
 (pdftex.def)             Requested size: 278.83578pt x 124.5213pt.
-<assets/pics/bab3_publikasi.png, id=1333, 1017.04968pt x 456.95718pt>
+<assets/pics/bab3_publikasi.png, id=1345, 1017.04968pt x 456.95718pt>
 File: assets/pics/bab3_publikasi.png Graphic file (type png)
 <use assets/pics/bab3_publikasi.png>
 Package pdftex.def Info: assets/pics/bab3_publikasi.png  used on input line 423.
 (pdftex.def)             Requested size: 278.83578pt x 125.27663pt.
-<assets/pics/bab3_tools_and_resources.png, id=1334, 1371.1225pt x 2078.76625pt>
+<assets/pics/bab3_tools_and_resources.png, id=1346, 1371.1225pt x 2078.76625pt>
 File: assets/pics/bab3_tools_and_resources.png Graphic file (type png)
 <use assets/pics/bab3_tools_and_resources.png>
 Package pdftex.def Info: assets/pics/bab3_tools_and_resources.png  used on input line 432.
@@ -1525,7 +1525,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [31 <./assets/pics/bab3_faculty_members.png> <./assets/pics/bab3_research_grants.png> <./assets/pics/bab3_publikasi.png>]
-<assets/pics/bab3_events.png, id=1342, 1014.79124pt x 455.45157pt>
+<assets/pics/bab3_events.png, id=1354, 1014.79124pt x 455.45157pt>
 File: assets/pics/bab3_events.png Graphic file (type png)
 <use assets/pics/bab3_events.png>
 Package pdftex.def Info: assets/pics/bab3_events.png  used on input line 441.
@@ -1539,7 +1539,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [32 <./assets/pics/bab3_tools_and_resources.png>]
-<assets/pics/bab3_contacts.png, id=1349, 1371.1225pt x 1080.035pt>
+<assets/pics/bab3_contacts.png, id=1361, 1371.1225pt x 1080.035pt>
 File: assets/pics/bab3_contacts.png Graphic file (type png)
 <use assets/pics/bab3_contacts.png>
 Package pdftex.def Info: assets/pics/bab3_contacts.png  used on input line 450.
@@ -1557,12 +1557,12 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [33 <./assets/pics/bab3_events.png> <./assets/pics/bab3_contacts.png>]
-<assets/pics/bab3_admin.png, id=1356, 1371.1225pt x 702.625pt>
+<assets/pics/bab3_admin.png, id=1368, 1371.1225pt x 702.625pt>
 File: assets/pics/bab3_admin.png Graphic file (type png)
 <use assets/pics/bab3_admin.png>
 Package pdftex.def Info: assets/pics/bab3_admin.png  used on input line 461.
 (pdftex.def)             Requested size: 278.83578pt x 142.88116pt.
-<assets/pics/bab3_api_scraping.png, id=1357, 1080.035pt x 935.495pt>
+<assets/pics/bab3_api_scraping.png, id=1369, 1080.035pt x 935.495pt>
 File: assets/pics/bab3_api_scraping.png Graphic file (type png)
 <use assets/pics/bab3_api_scraping.png>
 Package pdftex.def Info: assets/pics/bab3_api_scraping.png  used on input line 471.
@@ -1596,7 +1596,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[35]) (src/01-body/04-bab4.tex
+[35]
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1605,12 +1605,33 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [36]
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+[]\T1/ptm/m/n/12 Sistem ke-mu-dian men-gin-stal dan men-gon-fig-urasi Open-VPN,
+ []
+
+) (src/01-body/04-bab4.tex
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[38]
 BAB 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 2.
 
-[37
+[39
 
 ]
 
@@ -1620,7 +1641,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[38]
+[40]
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1628,8 +1649,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[39]
-<assets/pics/bab4_navigation.png, id=1399, 523.20468pt x 326.72063pt>
+[41]
+<assets/pics/bab4_navigation.png, id=1433, 523.20468pt x 326.72063pt>
 File: assets/pics/bab4_navigation.png Graphic file (type png)
 <use assets/pics/bab4_navigation.png>
 Package pdftex.def Info: assets/pics/bab4_navigation.png  used on input line 101.
@@ -1642,13 +1663,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[40 <./assets/pics/bab4_navigation.png>]
-<assets/pics/bab4_performance.png, id=1409, 518.6878pt x 435.12563pt>
+[42 <./assets/pics/bab4_navigation.png>]
+<assets/pics/bab4_performance.png, id=1443, 518.6878pt x 435.12563pt>
 File: assets/pics/bab4_performance.png Graphic file (type png)
 <use assets/pics/bab4_performance.png>
 Package pdftex.def Info: assets/pics/bab4_performance.png  used on input line 116.
 (pdftex.def)             Requested size: 278.83578pt x 233.92194pt.
-<assets/pics/bab4_performance_recomendation.png, id=1410, 526.96875pt x 417.81094pt>
+<assets/pics/bab4_performance_recomendation.png, id=1444, 526.96875pt x 417.81094pt>
 File: assets/pics/bab4_performance_recomendation.png Graphic file (type png)
 <use assets/pics/bab4_performance_recomendation.png>
 Package pdftex.def Info: assets/pics/bab4_performance_recomendation.png  used on input line 134.
@@ -1661,8 +1682,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[41 <./assets/pics/bab4_performance.png>]
-<assets/pics/bab4_accesibility.png, id=1416, 521.69907pt x 414.79968pt>
+[43 <./assets/pics/bab4_performance.png>]
+<assets/pics/bab4_accesibility.png, id=1450, 521.69907pt x 414.79968pt>
 File: assets/pics/bab4_accesibility.png Graphic file (type png)
 <use assets/pics/bab4_accesibility.png>
 Package pdftex.def Info: assets/pics/bab4_accesibility.png  used on input line 143.
@@ -1679,13 +1700,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[42 <./assets/pics/bab4_performance_recomendation.png> <./assets/pics/bab4_accesibility.png>]
-<assets/pics/bab4_accesibility_recommendation.png, id=1423, 525.46312pt x 418.56375pt>
+[44 <./assets/pics/bab4_performance_recomendation.png> <./assets/pics/bab4_accesibility.png>]
+<assets/pics/bab4_accesibility_recommendation.png, id=1458, 525.46312pt x 418.56375pt>
 File: assets/pics/bab4_accesibility_recommendation.png Graphic file (type png)
 <use assets/pics/bab4_accesibility_recommendation.png>
 Package pdftex.def Info: assets/pics/bab4_accesibility_recommendation.png  used on input line 151.
 (pdftex.def)             Requested size: 278.83578pt x 222.11874pt.
-<assets/pics/bab4_bestpractice.png, id=1424, 521.69907pt x 432.86719pt>
+<assets/pics/bab4_bestpractice.png, id=1459, 521.69907pt x 432.86719pt>
 File: assets/pics/bab4_bestpractice.png Graphic file (type png)
 <use assets/pics/bab4_bestpractice.png>
 Package pdftex.def Info: assets/pics/bab4_bestpractice.png  used on input line 158.
@@ -1698,18 +1719,18 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[43 <./assets/pics/bab4_accesibility_recommendation.png> <./assets/pics/bab4_bestpractice.png>]
-<assets/pics/bab4_seo.png, id=1431, 522.45187pt x 416.30531pt>
+[45 <./assets/pics/bab4_accesibility_recommendation.png> <./assets/pics/bab4_bestpractice.png>]
+<assets/pics/bab4_seo.png, id=1466, 522.45187pt x 416.30531pt>
 File: assets/pics/bab4_seo.png Graphic file (type png)
 <use assets/pics/bab4_seo.png>
 Package pdftex.def Info: assets/pics/bab4_seo.png  used on input line 167.
 (pdftex.def)             Requested size: 278.83578pt x 222.18437pt.
-<assets/pics/bab4_timespan.png, id=1432, 522.45187pt x 155.07938pt>
+<assets/pics/bab4_timespan.png, id=1467, 522.45187pt x 155.07938pt>
 File: assets/pics/bab4_timespan.png Graphic file (type png)
 <use assets/pics/bab4_timespan.png>
 Package pdftex.def Info: assets/pics/bab4_timespan.png  used on input line 176.
 (pdftex.def)             Requested size: 278.83578pt x 82.76668pt.
-<assets/pics/bab4_timespan_performance_time.png, id=1433, 523.20468pt x 383.93437pt>
+<assets/pics/bab4_timespan_performance_time.png, id=1468, 523.20468pt x 383.93437pt>
 File: assets/pics/bab4_timespan_performance_time.png Graphic file (type png)
 <use assets/pics/bab4_timespan_performance_time.png>
 Package pdftex.def Info: assets/pics/bab4_timespan_performance_time.png  used on input line 183.
@@ -1722,8 +1743,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[44 <./assets/pics/bab4_seo.png> <./assets/pics/bab4_timespan.png>]
-<assets/pics/bab4_timespan_best_practice.png, id=1441, 526.96875pt x 438.13687pt>
+[46 <./assets/pics/bab4_seo.png> <./assets/pics/bab4_timespan.png>]
+<assets/pics/bab4_timespan_best_practice.png, id=1475, 526.96875pt x 438.13687pt>
 File: assets/pics/bab4_timespan_best_practice.png Graphic file (type png)
 <use assets/pics/bab4_timespan_best_practice.png>
 Package pdftex.def Info: assets/pics/bab4_timespan_best_practice.png  used on input line 198.
@@ -1736,8 +1757,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[45 <./assets/pics/bab4_timespan_performance_time.png>]
-<assets/pics/bab4_bar_execution_time_database.png, id=1447, 722.7pt x 433.62pt>
+[47 <./assets/pics/bab4_timespan_performance_time.png>]
+<assets/pics/bab4_bar_execution_time_database.png, id=1481, 722.7pt x 433.62pt>
 File: assets/pics/bab4_bar_execution_time_database.png Graphic file (type png)
 <use assets/pics/bab4_bar_execution_time_database.png>
 Package pdftex.def Info: assets/pics/bab4_bar_execution_time_database.png  used on input line 209.
@@ -1750,13 +1771,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[46 <./assets/pics/bab4_timespan_best_practice.png> <./assets/pics/bab4_bar_execution_time_database.png>]
-<assets/pics/bab4_pie_test_status_database.png, id=1454, 433.62pt x 433.62pt>
+[48 <./assets/pics/bab4_timespan_best_practice.png> <./assets/pics/bab4_bar_execution_time_database.png>]
+<assets/pics/bab4_pie_test_status_database.png, id=1488, 433.62pt x 433.62pt>
 File: assets/pics/bab4_pie_test_status_database.png Graphic file (type png)
 <use assets/pics/bab4_pie_test_status_database.png>
 Package pdftex.def Info: assets/pics/bab4_pie_test_status_database.png  used on input line 217.
 (pdftex.def)             Requested size: 278.83578pt x 278.84576pt.
-<assets/pics/bab4_stacked_test_class_status_database.png, id=1455, 578.16pt x 433.62pt>
+<assets/pics/bab4_stacked_test_class_status_database.png, id=1489, 578.16pt x 433.62pt>
 File: assets/pics/bab4_stacked_test_class_status_database.png Graphic file (type png)
 <use assets/pics/bab4_stacked_test_class_status_database.png>
 Package pdftex.def Info: assets/pics/bab4_stacked_test_class_status_database.png  used on input line 225.
@@ -1769,12 +1790,12 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[47 <./assets/pics/bab4_pie_test_status_database.png>]
+[49 <./assets/pics/bab4_pie_test_status_database.png>]
 File: assets/pics/bab4_stacked_test_class_status_database.png Graphic file (type png)
 <use assets/pics/bab4_stacked_test_class_status_database.png>
 Package pdftex.def Info: assets/pics/bab4_stacked_test_class_status_database.png  used on input line 233.
 (pdftex.def)             Requested size: 278.83578pt x 209.1211pt.
-<assets/pics/bab4_bar_execution_time_views.png, id=1461, 722.7pt x 433.62pt>
+<assets/pics/bab4_bar_execution_time_views.png, id=1495, 722.7pt x 433.62pt>
 File: assets/pics/bab4_bar_execution_time_views.png Graphic file (type png)
 <use assets/pics/bab4_bar_execution_time_views.png>
 Package pdftex.def Info: assets/pics/bab4_bar_execution_time_views.png  used on input line 244.
@@ -1787,8 +1808,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[48 <./assets/pics/bab4_stacked_test_class_status_database.png>]
-<assets/pics/bab4_pie_test_status_views.png, id=1467, 433.62pt x 433.62pt>
+[50 <./assets/pics/bab4_stacked_test_class_status_database.png>]
+<assets/pics/bab4_pie_test_status_views.png, id=1502, 433.62pt x 433.62pt>
 File: assets/pics/bab4_pie_test_status_views.png Graphic file (type png)
 <use assets/pics/bab4_pie_test_status_views.png>
 Package pdftex.def Info: assets/pics/bab4_pie_test_status_views.png  used on input line 251.
@@ -1801,8 +1822,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[49 <./assets/pics/bab4_bar_execution_time_views.png>]
-<assets/pics/bab4_stacked_test_class_status_views.png, id=1473, 578.16pt x 433.62pt>
+[51 <./assets/pics/bab4_bar_execution_time_views.png>]
+<assets/pics/bab4_stacked_test_class_status_views.png, id=1508, 578.16pt x 433.62pt>
 File: assets/pics/bab4_stacked_test_class_status_views.png Graphic file (type png)
 <use assets/pics/bab4_stacked_test_class_status_views.png>
 Package pdftex.def Info: assets/pics/bab4_stacked_test_class_status_views.png  used on input line 259.
@@ -1819,23 +1840,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[50 <./assets/pics/bab4_pie_test_status_views.png> <./assets/pics/bab4_stacked_test_class_status_views.png>]) (src/01-body/05-bab5.tex
-
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
-
-[51]
-BAB 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 2.
-
-[52
-
-]
+[52 <./assets/pics/bab4_pie_test_status_views.png> <./assets/pics/bab4_stacked_test_class_status_views.png>]) (src/01-body/05-bab5.tex
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1844,14 +1849,14 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [53]
+BAB 5.
 
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 2.
 
-[54]
+[54
+
+]
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1868,11 +1873,27 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [56]
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[57]
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 []\T1/ptm/m/n/12 Jalankan server Django meng-gu-nakan per-in-tah \T1/pcr/m/n/12 python manage.py
  []
 
-<assets/pics/bab5_login.png, id=1512, 1371.1225pt x 709.65125pt>
+<assets/pics/bab5_login.png, id=1546, 1371.1225pt x 709.65125pt>
 File: assets/pics/bab5_login.png Graphic file (type png)
 <use assets/pics/bab5_login.png>
 Package pdftex.def Info: assets/pics/bab5_login.png  used on input line 157.
@@ -1884,13 +1905,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[57 <./assets/pics/bab5_login.png>]
-<assets/pics/bab5_admin.png, id=1521, 1371.1225pt x 823.075pt>
+[59 <./assets/pics/bab5_login.png>]
+<assets/pics/bab5_admin.png, id=1555, 1371.1225pt x 823.075pt>
 File: assets/pics/bab5_admin.png Graphic file (type png)
 <use assets/pics/bab5_admin.png>
 Package pdftex.def Info: assets/pics/bab5_admin.png  used on input line 167.
 (pdftex.def)             Requested size: 227.62204pt x 136.6304pt.
-<assets/pics/bab5_publications.png, id=1522, 1371.1225pt x 1203.49625pt>
+<assets/pics/bab5_publications.png, id=1556, 1371.1225pt x 1203.49625pt>
 File: assets/pics/bab5_publications.png Graphic file (type png)
 <use assets/pics/bab5_publications.png>
 Package pdftex.def Info: assets/pics/bab5_publications.png  used on input line 176.
@@ -1907,8 +1928,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[58 <./assets/pics/bab5_admin.png> <./assets/pics/bab5_publications.png>]
-<assets/pics/bab5_faculty_members.png, id=1530, 1371.1225pt x 1298.8525pt>
+[60 <./assets/pics/bab5_admin.png> <./assets/pics/bab5_publications.png>]
+<assets/pics/bab5_faculty_members.png, id=1564, 1371.1225pt x 1298.8525pt>
 File: assets/pics/bab5_faculty_members.png Graphic file (type png)
 <use assets/pics/bab5_faculty_members.png>
 Package pdftex.def Info: assets/pics/bab5_faculty_members.png  used on input line 202.
@@ -1921,13 +1942,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[59 <./assets/pics/bab5_faculty_members.png>]
-<assets/pics/bab5_current_students.png, id=1536, 1371.1225pt x 746.79pt>
+[61 <./assets/pics/bab5_faculty_members.png>]
+<assets/pics/bab5_current_students.png, id=1570, 1371.1225pt x 746.79pt>
 File: assets/pics/bab5_current_students.png Graphic file (type png)
 <use assets/pics/bab5_current_students.png>
 Package pdftex.def Info: assets/pics/bab5_current_students.png  used on input line 223.
 (pdftex.def)             Requested size: 227.62204pt x 123.9671pt.
-<assets/pics/bab5_alumni.png, id=1537, 1371.1225pt x 752.8125pt>
+<assets/pics/bab5_alumni.png, id=1571, 1371.1225pt x 752.8125pt>
 File: assets/pics/bab5_alumni.png Graphic file (type png)
 <use assets/pics/bab5_alumni.png>
 Package pdftex.def Info: assets/pics/bab5_alumni.png  used on input line 239.
@@ -1940,8 +1961,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[60 <./assets/pics/bab5_current_students.png>]
-<assets/pics/bab5_events.png, id=1543, 1371.1225pt x 937.5025pt>
+[62 <./assets/pics/bab5_current_students.png>]
+<assets/pics/bab5_events.png, id=1578, 1371.1225pt x 937.5025pt>
 File: assets/pics/bab5_events.png Graphic file (type png)
 <use assets/pics/bab5_events.png>
 Package pdftex.def Info: assets/pics/bab5_events.png  used on input line 257.
@@ -1958,18 +1979,18 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[61 <./assets/pics/bab5_alumni.png> <./assets/pics/bab5_events.png>]
-<assets/pics/bab5_research_grant_sheets.png, id=1550, 1371.1225pt x 817.0525pt>
+[63 <./assets/pics/bab5_alumni.png> <./assets/pics/bab5_events.png>]
+<assets/pics/bab5_research_grant_sheets.png, id=1585, 1371.1225pt x 817.0525pt>
 File: assets/pics/bab5_research_grant_sheets.png Graphic file (type png)
 <use assets/pics/bab5_research_grant_sheets.png>
 Package pdftex.def Info: assets/pics/bab5_research_grant_sheets.png  used on input line 278.
 (pdftex.def)             Requested size: 227.62204pt x 135.63068pt.
-<assets/pics/bab5_research_grant.png, id=1551, 1018.55531pt x 419.31656pt>
+<assets/pics/bab5_research_grant.png, id=1586, 1018.55531pt x 419.31656pt>
 File: assets/pics/bab5_research_grant.png Graphic file (type png)
 <use assets/pics/bab5_research_grant.png>
 Package pdftex.def Info: assets/pics/bab5_research_grant.png  used on input line 285.
 (pdftex.def)             Requested size: 227.62204pt x 93.70232pt.
-<assets/pics/bab5_nlp_tools.png, id=1552, 1371.1225pt x 701.62125pt>
+<assets/pics/bab5_nlp_tools.png, id=1587, 1371.1225pt x 701.62125pt>
 File: assets/pics/bab5_nlp_tools.png Graphic file (type png)
 <use assets/pics/bab5_nlp_tools.png>
 Package pdftex.def Info: assets/pics/bab5_nlp_tools.png  used on input line 296.
@@ -1982,8 +2003,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[62 <./assets/pics/bab5_research_grant_sheets.png> <./assets/pics/bab5_research_grant.png>]
-<assets/pics/bab5_dataset.png, id=1562, 1371.1225pt x 855.195pt>
+[64 <./assets/pics/bab5_research_grant_sheets.png> <./assets/pics/bab5_research_grant.png>]
+<assets/pics/bab5_dataset.png, id=1596, 1371.1225pt x 855.195pt>
 File: assets/pics/bab5_dataset.png Graphic file (type png)
 <use assets/pics/bab5_dataset.png>
 Package pdftex.def Info: assets/pics/bab5_dataset.png  used on input line 312.
@@ -1996,7 +2017,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[63 <./assets/pics/bab5_nlp_tools.png> <./assets/pics/bab5_dataset.png>]
+[65 <./assets/pics/bab5_nlp_tools.png> <./assets/pics/bab5_dataset.png>]
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2004,13 +2025,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[64]
+[66]
 BAB 6.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 2.
 
-[65
+[67
 
 ]) (thesis.bbl
 
@@ -2020,12 +2041,12 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[66]
+[68]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 1.
 
-) [67
+) [69
 
 ] (thesis.aux)
  ***********
@@ -2037,20 +2058,20 @@ L3 programming layer <2025-11-06>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 97A2CC8FB5573814FD6A9EB2D8172457;21797.
+(rerunfilecheck)             Checksum: 21814E70E27A48FCFB591C53FA513F2B;22404.
  ) 
 Here is how much of TeX's memory you used:
- 29194 strings out of 467870
- 536568 string characters out of 5418839
- 1236942 words of memory out of 5000000
- 56832 multiletter control sequences out of 15000+600000
+ 29214 strings out of 467870
+ 536748 string characters out of 5418839
+ 1237942 words of memory out of 5000000
+ 56834 multiletter control sequences out of 15000+600000
  676857 words of font info for 108 fonts, out of 8000000 for 9000
  1210 hyphenation exceptions out of 8191
  119i,12n,130p,973b,1471s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (84 pages, 3839122 bytes).
+Output written on thesis.pdf (86 pages, 3849140 bytes).
 PDF statistics:
- 1754 PDF objects out of 2073 (max. 8388607)
- 586 named destinations out of 1000 (max. 500000)
- 1077 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1792 PDF objects out of 2073 (max. 8388607)
+ 604 named destinations out of 1000 (max. 500000)
+ 1093 words of extra memory for PDF output out of 10000 (max. 10000000)
 

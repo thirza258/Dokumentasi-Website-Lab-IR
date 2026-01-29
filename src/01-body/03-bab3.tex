@@ -503,3 +503,50 @@ Atribut \textit{topics} diformat ulang menjadi daftar topik yang dapat disimpan 
 \end{enumerate}
 
 Dengan demikian, setiap publikasi yang tersimpan memiliki keterkaitan struktur data yang konsisten, lengkap, dan dapat digunakan untuk kebutuhan tampilan pada halaman publikasi website.
+
+
+\subsection{Alur Research Grant dari Google Sheets}
+
+Alur pengambilan data \textit{research grant} dimulai dengan melakukan login ke Google Cloud Console, kemudian membuat sebuah proyek baru dengan nama \textit{ir-nlp-grant-scheduler}. Setelah proyek berhasil dibuat, Google Sheets API diaktifkan untuk memungkinkan akses data spreadsheet secara terprogram.
+
+Selanjutnya, dibuat \textit{credentials} berupa \textit{service account} dengan peran (\textit{role}) sebagai \textit{Reader}. Setelah proses pembuatan selesai, dibuat sebuah \textit{key} dalam format JSON yang menghasilkan berkas \texttt{credentials.json}, yang digunakan sebagai kunci autentikasi pada sisi aplikasi.
+
+Tahap berikutnya adalah membuka Google Sheets yang berisi data \textit{grant} IR-NLP, kemudian melakukan proses \textit{sharing} dengan menambahkan alamat email dari \textit{service account} yang telah dibuat sebelumnya, sehingga aplikasi memiliki izin untuk membaca data pada spreadsheet tersebut.
+
+Implementasi teknis dilakukan menggunakan pustaka \textit{google-api-python-client} dan \textit{google-auth} pada bahasa pemrograman Python. Aplikasi mengakses spreadsheet berdasarkan \textit{Spreadsheet ID}, kemudian mendefinisikan lembar kerja (\textit{worksheet}) serta rentang baris yang akan digunakan sebagai sumber data.
+
+Untuk memastikan data selalu terbarui, proses pengambilan data dari Google Sheets dijalankan secara berkala menggunakan \textit{APScheduler}. Dengan pendekatan ini, sistem mampu melakukan pembaruan data secara otomatis tanpa memerlukan intervensi manual.
+
+
+\subsection{Alur Deployment ke Server Kawung IR-NLP}
+
+Setelah proses pembangunan sistem selesai, tahap selanjutnya adalah melakukan \textit{deployment} aplikasi ke server produksi. Pada penelitian ini, server yang digunakan adalah server Kawung IR-NLP yang dikelola oleh Laboratorium IR-NLP. Proses \textit{deployment} dilakukan secara otomatis menggunakan \textit{GitHub Actions} dengan alur sebagai berikut:
+
+\begin{enumerate}
+    \item \textbf{Persiapan Lingkungan Server} \\
+    Tahap awal dilakukan dengan memastikan server dapat diakses melalui koneksi \textit{Secure Shell} (SSH) dengan menambahkan \textit{public key} ke dalam berkas \texttt{authorized\_keys}. Selain itu, dilakukan verifikasi spesifikasi perangkat keras dan perangkat lunak server, termasuk memastikan sistem operasi berbasis arsitektur 64-bit dengan menjalankan perintah \texttt{uname -m}, serta memastikan Docker telah terpasang dengan mengecek versi melalui perintah \texttt{docker --version}. Server juga telah dilengkapi dengan lingkungan pendukung seperti Python, Django, dan basis data yang digunakan oleh aplikasi.
+
+    \item \textbf{Konfigurasi Rahasia dan Kredensial} \\
+    Seluruh konfigurasi rahasia, seperti \textit{API key}, kredensial basis data, dan variabel lingkungan lainnya, disimpan secara aman menggunakan fitur \textit{GitHub Secrets} pada repositori GitHub untuk menjaga keamanan data sensitif. 
+
+    Khusus untuk berkas \texttt{credentials.json} dari \textit{service account}, berkas tersebut terlebih dahulu dikonversi ke dalam format \textit{Base64} sebelum dimasukkan ke dalam \textit{GitHub Secrets}. Hal ini dilakukan karena \textit{GitHub Secrets} tidak mendukung penyimpanan karakter khusus, seperti tanda petik dua (\texttt{"}), secara langsung. 
+
+    Pada tahap \textit{deployment}, data \textit{Base64} tersebut kemudian didekodekan kembali menjadi berkas \texttt{credentials.json} agar dapat digunakan oleh aplikasi untuk proses autentikasi Google Sheets API.
+    \item \textbf{Pembuatan Workflow Deployment} \\
+    Dibuat sebuah berkas \texttt{deploy.yaml} pada direktori \texttt{.github/workflows} di dalam repositori GitHub yang berfungsi sebagai konfigurasi otomatisasi \textit{deployment} menggunakan GitHub Actions. Adapun alur kerja pada berkas tersebut adalah sebagai berikut:
+    \begin{enumerate}
+        \item Workflow dijalankan secara otomatis setiap kali terjadi \textit{push} ke \textit{branch} \texttt{main}.
+        \item Pipeline dijalankan pada \textit{runner} berbasis \texttt{ubuntu-latest} dengan \textit{environment} \texttt{production}.
+        \item Repository di-\textit{checkout} menggunakan \textit{GitHub Actions}.
+        \item Dilakukan autentikasi ke Docker Hub menggunakan \textit{Docker username} dan \textit{Docker password} yang tersimpan pada GitHub Secrets.
+        \item Image aplikasi web IR-NLP dibangun (\textit{build}) dan diunggah (\textit{push}) ke Docker Hub sesuai dengan akun pengguna yang telah terautentikasi.
+        \item Pada tahap \textit{deployment}, pipeline membuat berkas konfigurasi \texttt{.env} yang berisi variabel lingkungan aplikasi.
+        \item Sistem kemudian menginstal dan mengonfigurasi OpenVPN, menghubungkan ke jaringan VPN menggunakan berkas konfigurasi yang tersedia.
+        \item Setelah koneksi VPN berhasil, pipeline menyalin berkas konfigurasi \textit{deployment} seperti \texttt{docker-compose.yml}, \texttt{entrypoint}, \texttt{.env}, berkas kredensial \texttt{JSON}, dan konfigurasi \texttt{Nginx}.
+        \item Proses dilanjutkan dengan melakukan koneksi SSH ke server Kawung IR-NLP untuk menarik (\textit{pull}) image terbaru dari Docker Hub dan menjalankan aplikasi menggunakan perintah \texttt{docker compose up}.
+        \item Setelah aplikasi berhasil dijalankan, koneksi VPN dimatikan untuk mengakhiri proses \textit{deployment}.
+    \end{enumerate}
+
+    \item \textbf{Konfigurasi Keamanan SSH} \\
+    Untuk menjaga keamanan proses \textit{deployment}, digunakan autentikasi berbasis kunci SSH antara GitHub Actions dan server Kawung IR-NLP sehingga tidak diperlukan penggunaan kata sandi secara langsung.
+\end{enumerate}
